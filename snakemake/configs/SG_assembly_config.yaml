@@ -1,0 +1,10 @@
+samples_path: "SG_reads"
+env_name: "SG_assembly"
+eggnog_db: "~/db/eggnog"
+busco_database: "rhodobacterales_odb10"
+
+fastp_config:
+  reads_dir: "SG_reads"
+  unqualified: 10
+  read_length: 40
+  env_name: "SG_assembly"

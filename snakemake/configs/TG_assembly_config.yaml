@@ -1,0 +1,35 @@
+SG_reads_dir: "SG_reads"
+TG_reads_dir: "TG_reads"
+pilon_jar: "/home/xjm/software/pilon-1.24.jar"
+env_name: "TG_assembly"
+eggnog_db: "~/db/eggnog"
+bakta_db: "~/db/bakta/db"
+busco_database: "rhodobacterales_odb10"
+polish_times: 5
+
+quality_assessment_env_name: "quality_assessment"
+
+fastp_config:
+  reads_dir: "SG_reads"
+  unqualified: 10
+  read_length: 40
+  env_name: "TG_assembly"
+  is_phred64: true
+
+genome_size:
+  DiB24_64: 4.7m
+  ThF34_48: 4.4m
+  NeS41_83: 4.5m
+  ChS42_8: 4.4m
+  LaS47_15: 4.5m
+  BaP12_1: 4.7m
+  AcS47_7: 4.7m
+
+organism:
+  DiB24_64: "Candidatus Plastiphaeobacter"
+  ThF34_48: "Candidatus Plastiphaeobacter"
+  NeS41_83: "Candidatus Plastiphaeobacter"
+  ChS42_8: "Candidatus Plastiphaeobacter"
+  LaS47_15: "Candidatus Plastiphaeobacter"
+  BaP12_1: "Candidatus Plastiphaeobacter"
+  AcS47_7: "Candidatus Plastiphaeobacter"

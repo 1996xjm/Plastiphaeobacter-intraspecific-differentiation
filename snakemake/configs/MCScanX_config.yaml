@@ -1,0 +1,3 @@
+env_name: "TG_assembly"
+pgap_output: "/home/xjm/final_representative_strain/Pha/ONT_sequencing/pgap_output"
+merge_annotation_output: "/home/xjm/final_representative_strain/Pha/TG_genome/merge_annotation"

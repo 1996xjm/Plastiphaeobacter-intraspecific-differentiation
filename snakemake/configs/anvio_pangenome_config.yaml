@@ -1,0 +1,3 @@
+genomes_dir: "/home/xjm/final_representative_strain/Pha/ONT_sequencing/TG_genome"
+env_name: "anvio-8"
+pgap_output: "/home/xjm/final_representative_strain/Pha/ONT_sequencing/pgap_output"
